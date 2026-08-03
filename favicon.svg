@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Obioma Favicon - Consistent Brand -->
+  <rect width="32" height="32" rx="6" fill="#e56254"/>
+  <g fill="white">
+    <circle cx="16" cy="12" r="3"/>
+    <circle cx="11" cy="17" r="2"/>
+    <circle cx="21" cy="17" r="2"/>
+    <circle cx="16" cy="22" r="2.5"/>
+  </g>
+  <g stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <line x1="16" y1="12" x2="11" y2="17"/>
+    <line x1="16" y1="12" x2="21" y2="17"/>
+    <line x1="11" y1="17" x2="16" y2="22"/>
+    <line x1="21" y1="17" x2="16" y2="22"/>
+  </g>
+</svg>

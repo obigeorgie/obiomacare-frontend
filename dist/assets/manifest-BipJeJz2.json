@@ -1,0 +1,65 @@
+{
+  "name": "Obioma Care — Clinical Judgment Mastery",
+  "short_name": "Obioma Care",
+  "description": "Master the Next Generation NCLEX with the Clinical Judgment Measurement Model",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#1f1c19",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "health", "medical"],
+  "lang": "en",
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "SRS Review",
+      "short_name": "Review",
+      "description": "Daily spaced repetition review",
+      "url": "/srs-review",
+      "icons": [{ "src": "/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Anatomy Lab",
+      "short_name": "Anatomy",
+      "description": "3D interactive anatomy",
+      "url": "/anatomy-lab",
+      "icons": [{ "src": "/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Case Studies",
+      "short_name": "Cases",
+      "description": "NGN-style case studies",
+      "url": "/case-study/case-mi-001",
+      "icons": [{ "src": "/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ]
+}

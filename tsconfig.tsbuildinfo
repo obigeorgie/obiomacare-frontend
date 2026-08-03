@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/anatomy/Heart3D.tsx","./src/components/anatomy/HeartHotspots.tsx","./src/components/anatomy/HeartModels.tsx","./src/components/anatomy/store.ts","./src/pages/AnatomyLab.tsx"],"version":"6.0.3"}
