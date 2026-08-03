@@ -2,10 +2,28 @@ import { useState, Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment } from '@react-three/drei';
 import { Heart3D } from '../components/anatomy/Heart3D';
+import { useWebGLSupport, WebGLFallback } from '../components/anatomy/WebGLFallback';
 
 export default function AnatomyLab() {
   const [mode, setMode] = useState<'explore' | 'animate' | 'disease' | 'quiz'>('explore');
   const [quizTarget, setQuizTarget] = useState<string | null>(null);
+  const webglSupported = useWebGLSupport();
+
+  if (webglSupported === null) {
+    return (
+      <div className="w-screen h-screen bg-[#0f0f1a] flex items-center justify-center">
+        <div className="text-white text-sm">Loading 3D engine...</div>
+      </div>
+    );
+  }
+
+  if (!webglSupported) {
+    return (
+      <div className="w-screen h-screen bg-[#0f0f1a] p-4">
+        <WebGLFallback />
+      </div>
+    );
+  }
 
   return (
     <div className="w-screen h-screen bg-[#0f0f1a] overflow-hidden flex flex-col">
