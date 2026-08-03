@@ -37,7 +37,7 @@ export function Heart3D({
   return (
     <group ref={groupRef}>
       {useGLB && glbUrl ? (
-        <GLBModelLoader url={glbUrl} scale={1.5} />
+        <GLBModelLoader url={glbUrl} scale={2.5} />
       ) : (
         <DetailedProceduralHeart quizTarget={quizTarget} />
       )}

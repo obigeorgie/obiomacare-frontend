@@ -56,6 +56,8 @@ export default function AnatomyLab() {
           <directionalLight position={[-5, -3, -2]} intensity={0.3} />
           <Suspense fallback={null}>
             <Heart3D
+              useGLB={true}
+              glbUrl="/models/heart.glb"
               onStructureClick={(id) => {
                 console.log('Clicked:', id);
                 setQuizTarget(id);
